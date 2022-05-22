@@ -6,4 +6,5 @@ Make a POST request to http://khourye.pythonanywhere.com/users.
 Example:
 
 arguments = {'api_key': 'chickens456', 'keyword': 'tree', 'num_images': 2}
+
 response = requests.post(api_url, json=arguments)
